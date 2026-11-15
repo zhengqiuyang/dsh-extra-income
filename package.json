@@ -27,6 +27,21 @@
   "scripts": {
     "test": "node test/provider.test.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengqiuyang/dsh-extra-income.git"
+  },
+  "homepage": "https://github.com/zhengqiuyang/dsh-extra-income",
+  "bugs": {
+    "url": "https://github.com/zhengqiuyang/dsh-extra-income/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skills",
+    "skill"
+  ],
+  "author": "zhengqiuyang",
   "license": "MIT",
   "engines": {
     "node": ">=20"
