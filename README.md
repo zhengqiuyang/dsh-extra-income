@@ -7,11 +7,12 @@ Installing the plugin puts the skill into the profile's skill catalog, so every 
 ## Install
 
 ```bash
-# From a local checkout (recommended while unreleased)
-dsh plugin add ./dsh-extra-income
+dsh plugin add dsh-extra-income
 ```
 
-Or in the Web UI: **Plugins** → **Add plugin** → select the package directory.
+Or in the Web UI: **Plugins** → **Add plugin** → `dsh-extra-income`.
+
+From a local checkout: `dsh plugin add ./dsh-extra-income`. The package is published on npm as `dsh-extra-income@0.1.0`.
 
 ## What it adds
 
@@ -39,6 +40,7 @@ skills/monetize/      # bundled skill (copy of the source repository)
 
 - **Provider logic** — covered by `npm test` (`test/provider.test.mjs`): registers the provider against a stub context, asserts the candidate metadata, and loads the skill body.
 - **Install** — installed into a DSH profile as bundle `dsh-extra-income` 0.1.0; the installer reported `application: applied` with no warnings.
+- **npm** — published as `dsh-extra-income@0.1.0`; a clean install from the registry contains all 11 package files.
 - **Skill catalog** — must be confirmed in a new session: a running session builds its skill catalog at start, so the plugin's skill appears only after reopening.
 
 ```bash
