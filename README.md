@@ -37,7 +37,13 @@ skills/monetize/      # bundled skill (copy of the source repository)
 
 ## Verification status
 
-Not yet installed into a profile. Installation changes profile state and needs explicit approval; after installing, open a new session and confirm `monetize` appears in the skill catalog.
+- **Provider logic** — covered by `npm test` (`test/provider.test.mjs`): registers the provider against a stub context, asserts the candidate metadata, and loads the skill body.
+- **Install** — installed into a DSH profile as bundle `dsh-extra-income` 0.1.0; the installer reported `application: applied` with no warnings.
+- **Skill catalog** — must be confirmed in a new session: a running session builds its skill catalog at start, so the plugin's skill appears only after reopening.
+
+```bash
+npm test
+```
 
 ## License
 
