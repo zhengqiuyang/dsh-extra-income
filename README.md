@@ -22,7 +22,7 @@ dsh plugin add dsh-extra-income
 
 Or in the Web UI: **Plugins** → **Add plugin** → `dsh-extra-income`.
 
-From a local checkout: `dsh plugin add ./dsh-extra-income`. Published on npm as [`dsh-extra-income@0.1.0`](https://www.npmjs.com/package/dsh-extra-income).
+From a local checkout: `dsh plugin add ./dsh-extra-income`. Published on npm as [`dsh-extra-income@0.1.1`](https://www.npmjs.com/package/dsh-extra-income).
 
 <a id="what"></a>
 
@@ -59,7 +59,7 @@ what side hustle fits my background?
 
 - **Provider logic** — `npm test` registers the provider against a stub context, asserts the candidate metadata and loads the skill body.
 - **Install** — installed into a DSH profile as bundle `dsh-extra-income` 0.1.0; the installer reported `application: applied` with no warnings.
-- **npm** — published as `dsh-extra-income@0.1.0`; a clean install from the registry contains all 11 package files.
+- **npm** — published as `dsh-extra-income@0.1.1`; a clean install from the registry contains all 11 package files.
 - **Skill catalog** — verify in a new session: a running session builds its catalog at start, so the plugin's skill appears only after reopening.
 
 Tested against the DSH build shipped with the current DeepSeek Harness desktop app (harness packages 0.2.2-rc.3).
