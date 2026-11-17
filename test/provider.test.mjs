@@ -34,7 +34,7 @@ assert.ok(candidate.locator.endsWith('SKILL.md'))
 const loaded = await captured.get(candidate, {})
 assert.equal(loaded.name, 'monetize')
 assert.ok(loaded.content.startsWith('# '), 'skill body must start with a heading')
-assert.ok(loaded.content.includes('## 报告输出'), 'skill body must include the report section')
+assert.ok(loaded.content.includes('## Report and lint'), 'skill body must include the report section')
 assert.ok(!('rank' in loaded), 'rank is a catalog detail, not part of the loaded skill')
 
 console.log('ok: provider lists and loads the bundled skill')

@@ -1,6 +1,6 @@
 {
   "name": "dsh-extra-income",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness plugin: bundles the monetize skill (career history to an honest side-income plan) and shows it in the skill catalog.",
   "type": "module",
   "main": "index.js",

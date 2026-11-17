@@ -1,0 +1,5 @@
+chore: sync monetize skill with the merged upstream version
+
+Replace the Chinese v0.x skill with the English v1.0 merged in
+alirezarezvani/claude-skills: shorter SKILL.md, the market/module references and
+their scripts/report_lint.py. Keep the bundled report sample. Bump to 0.1.1.
